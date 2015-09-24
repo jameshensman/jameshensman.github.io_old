@@ -72,27 +72,25 @@ UK<br>
 		<div class="article">
 		    <div class="well">
 			<div class="content">
-			    <h1 id="welcome">Welcome</h1>
-<p>I’m a lecturer in biostatistics in the <a href="http://chicas.lancaster-university.uk">CHICAS research group</a> at Lancaster university. I’m interested in statistical machine learning and how it can be applied in biosciences and epidemiology. I hold a fellowship from the MRC in biostatistics.</p>
+			    <h1 id="gpy">GPy</h1>
+<p>In 2010 I started working on GPy. Based in part on Neil Lawrence’s matlab code, I started to make a framework for Gaussian processes in python. The aim was to facilitate reproducible research, and to give myself a platform to build future work on, with things like automatic gradient-checking built in.</p>
 
-<p>I’m also a visiting researcher at Manchester University with <a href="http://www.ls.manchester.ac.uk/people/profile/?alias=rattraym">Magnus Rattray</a>, where I help work on <a href="https://www.bioconductor.org/packages/release/bioc/html/BitSeq.html">BitSeq</a>, a method for quantifying gene and isoform eqpression from RNA-seq data.</p>
+<p>Now GPy has evolved into much more than that. With the contribution of other lab members, we began to build a platform that can be used for research and teaching.</p>
 
-<p>I helped create <a href="http://github.com/GPy">GPy</a>, a python package for developing Gaussian process models. I also created <a href="http://github.com/jameshensman/gpclust">GPClust</a>, a package for clustering time series models using GPs, Dirichlet processes and variational Bayes.</p>
+<p>Check out the code on <a href="http://github.com/sheffieldml/gpy">github</a></p>
 
-<p>Previously I worked at Sheffield University with <a href="https://www.sheffield.ac.uk/neuroscience/staff/lawrence">Neil Lawrence</a>, after completing a PhD with <a href="http://shef.ac.uk/drg/people/keith">Keith Worden</a>.</p>
+<h1 id="gpclust">GPclust</h1>
+<p>GPclust contains effiecient code for clustering time series using Gaussian processes. It’s based on a modification to the VBEM algorithm that I wrote about <a href="http://papers.nips.cc/paper/4766-fast-variational-inference-in-the-conjugate-exponential-family">here</a>, and builds on GPy. There are <a href="https://github.com/jameshensman/GPclust/blob/master/notebooks/index.ipynb">notebook tutorials</a> to go with the <a href="https://github.com/jameshensman/GPclust/">open source code</a></p>
 
-<h1 id="career">Career</h1>
+<h1 id="hierarchical-gps">Hierarchical GPs</h1>
+<p>It’s possible to extend Gaussian processes into hierarchical structures to model groupings in data. The linear-Gaussian mature of the model means that the whole thing is still a Gaussian process: I wrote about this in <a href="http://www.biomedcentral.com/1471-2105/14/252">BMC Bioinformatics</a>. <br />
+I’ve incorporated the code for this paper into GPy. I’ve created an IPython notebook to show how to <a href="https://github.com/SheffieldML/notebook/blob/master/compbio/Hierarchical.ipynb">apply these ideas</a></p>
 
-<ul>
-  <li>2015 - present Lecturer in Biostatistics, Lancaster University</li>
-  <li>2013 - present MRC career development research fellow in biostatistics</li>
-  <li>2011 - 2013 Postdoc with Neil Lawrence and Magnus Rattray, Sheffield Institute for Translational Neuroscience (<a href="http://sitran.org">SITraN</a>)</li>
-  <li>2010 - 2011 EPSRC doctoral prize research fellow, Dynamics research group, Mechanical engineering, University of Sheffield</li>
-  <li>2009 - 2010 Postdoc at the Politecnico di Torino with <a href="https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=001897">Cecilia Surace</a> and <a href="https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=003226">Marco Gherlone</a>.</li>
-</ul>
+<h1 id="variational-inference">Variational Inference</h1>
+<p>In 2012 I wrote about a method for doing <a href="">fast optimization in Variational Bayes problems</a>. It’s a generally applicable method, so I’ve used the code for other models also. You can find the code on <a href="githib.com/sheffieldml/colvb">github</a>.</p>
 
-<h1 id="students">Students</h1>
-<p>I’m looking for PhD candidates with good skills in maths and computing: contact me.</p>
+<h1 id="rna-transcript-quantification-bitseq">RNA Transcript Quantification (BitSeq)</h1>
+<p>Variational inference is useful across so many domains: we’ve recently shown how it can be aplied to count molucues from high-throuput sequencing. The paper is <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/04/bioinformatics.btv483.full.pdf+html">here</a> and the code is now part of the BitSeq project, <a href="https://www.bioconductor.org/packages/release/bioc/html/BitSeq.html">here</a>.</p>
 
 
 			</div>
