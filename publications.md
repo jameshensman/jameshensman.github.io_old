@@ -55,7 +55,7 @@ layout: plain
         <div class="content">
     <div class="well">
 <h1> 2010</h1>
-{% bibliography --query @*[year=2011] %}
+{% bibliography --query @*[year=2010] %}
 </div>
 </div>
 </div>

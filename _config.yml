@@ -13,7 +13,8 @@ scholar:
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{reference}}"
+  bibliography_template: bib
+
 
   replace_strings: true
   join_strings:    true
@@ -43,7 +44,6 @@ disqus: ''
 comments: false
 
 permalink: /:year/:month/:title
-paginate: 3
 
 highlighter: pygments
 markdown: kramdown
