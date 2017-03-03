@@ -2,6 +2,9 @@
 layout: default
 ---
 
+#GPflow
+With [Alex Matthews](http://mlg.eng.cam.ac.uk/?portfolio=alex-matthews) and many others I develop and maintain [GPflow](http://github.com/GPflow/GPflow), A Gaussian process library based on [TensorFlow](http://tensorflow.org).
+
 # GPy
 In 2010 I started working on GPy. Based in part on Neil Lawrence's matlab code, I started to make a framework for Gaussian processes in python. The aim was to facilitate reproducible research, and to give myself a platform to build future work on, with things like automatic gradient-checking built in.
 
