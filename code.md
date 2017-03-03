@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#GPflow
+# GPflow
 With [Alex Matthews](http://mlg.eng.cam.ac.uk/?portfolio=alex-matthews) and many others I develop and maintain [GPflow](http://github.com/GPflow/GPflow), A Gaussian process library based on [TensorFlow](http://tensorflow.org).
 
 # GPy
