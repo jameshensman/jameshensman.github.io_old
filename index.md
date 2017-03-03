@@ -20,9 +20,3 @@ I helped create [GPy](http://github.com/sheffieldML/GPy), another python package
  - 2011 - 2013 Postdoc with Neil Lawrence and Magnus Rattray, Sheffield Institute for Translational Neuroscience ([SITraN](http://sitran.org))
  - 2010 - 2011 EPSRC doctoral prize research fellow, Dynamics research group, Mechanical engineering, University of Sheffield
  - 2009 - 2010 Postdoc at the Politecnico di Torino with [Cecilia Surace](https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=001897) and [Marco Gherlone](https://didattica.polito.it/portal/pls/portal/sviluppo.scheda_pers_swas.show?m=003226). 
-
-
-%# Interns
-%Internship opp
-
-
