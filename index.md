@@ -5,8 +5,7 @@ layout: default
 I am a senior machine learning scientist at [PROWLER.io](http://prowler.io). I am interested in statistical machine learning and its role in autonomous systems.
 
 Previously I was a lecturer in the [CHICAS research group](http://chicas.lancaster-university.uk) at Lancaster University and a 
-visiting researcher at Manchester University with [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?alias=rattraym).
-Before that I worked at Sheffield University with [Neil Lawrence](https://www.sheffield.ac.uk/neuroscience/staff/lawrence), after completing a PhD with [Keith Worden](http://shef.ac.uk/drg/people/keith).
+visiting researcher at Manchester University with [Magnus Rattray](http://www.ls.manchester.ac.uk/people/profile/?alias=rattraym). Before that I worked at Sheffield University with [Neil Lawrence](https://www.sheffield.ac.uk/neuroscience/staff/lawrence), after completing a PhD with [Keith Worden](http://shef.ac.uk/drg/people/keith).
 
 With [Alex Matthews](http://mlg.eng.cam.ac.uk/?portfolio=alex-matthews) I founded the open source Gaussian process library [GPflow](https://github.com/GPflow/GPflow). Previously
 I helped create [GPy](http://github.com/sheffieldML/GPy), another python package for Gaussian process models. You can find more software [here](code).
